@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2020" /* Usa una versión más moderna de JavaScript */,
+    "module": "commonjs" /* Sistema de módulos para Node.js */,
+    "outDir": "./dist" /* Carpeta donde se guardará el código compilado */,
+    "rootDir": "./src" /* Carpeta del código fuente TypeScript */,
+    "esModuleInterop": true /* Interoperabilidad entre CommonJS y ES6 */,
+    "forceConsistentCasingInFileNames": true /* Consistencia en el uso de mayúsculas y minúsculas */,
+    "strict": true /* Habilita todas las opciones de verificación estricta */,
+    "skipLibCheck": true /* No verificar archivos de tipo de bibliotecas para acelerar compilación */,
+    "resolveJsonModule": true /* Permitir importar módulos JSON */,
+    "sourceMap": true /* Habilitar source maps para depuración */
+  },
+  "include": ["src"] /* Incluir la carpeta de código fuente */,
+  "exclude": ["node_modules"] /* Excluir dependencias */
+}
